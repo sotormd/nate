@@ -1,4 +1,4 @@
-# nixos-mate
+# nate
 
 MATE desktop for my NixOS needs.
 
@@ -9,7 +9,7 @@ MATE desktop for my NixOS needs.
 1. Add this flake as an input
 
    ```nix
-   inputs.mate.url = "github:sotormd/nixos-mate";
+   inputs.nate.url = "github:sotormd/nate";
    ```
 
-2. Import `inputs.mate.nixosModules.mate` in your configuration.
+2. Import `inputs.nate.nixosModules.nate` in your configuration.

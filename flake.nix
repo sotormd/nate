@@ -1,4 +1,4 @@
 {
   description = "MATE desktop for my nixos needs";
-  outputs = _: { nixosModules.mate = _: { imports = [ ./mate.nix ]; }; };
+  outputs = _: { nixosModules.nate = _: { imports = [ ./mate.nix ]; }; };
 }
